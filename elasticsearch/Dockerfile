@@ -8,7 +8,7 @@
 # Build stage 1 `builder`:
 # Extract Elasticsearch artifact
 ################################################################################
-
+ARG GOARCH=adm64
 FROM ubuntu:20.04 AS builder
 
 # Install required packages to extract the Elasticsearch distribution
